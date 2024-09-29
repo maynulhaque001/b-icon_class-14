@@ -1,0 +1,36 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  background-color: gainsboro;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 3px solid darkcyan;
+}
+
+.container h1 {
+  margin: 0;
+}
+
+.container p {
+  font-weight: bold;
+}
+
+.container .bi {
+  font-size: 32px;
+  padding: 5px 10px;
+  color: green;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.container .bi:hover {
+  background-color: tomato;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+}
